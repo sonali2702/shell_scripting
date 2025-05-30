@@ -1,10 +1,9 @@
-#! /bin/bash
+#!/bin/bash
 
-echo -p " enter the number :"  num
-
-
+echo  "enter the number:" 
+read num
 if ((num%2 ==0)); then
-    echo "$num is even "
+    echo "$num is even"
 else
      echo "$num is odd"
 fi
